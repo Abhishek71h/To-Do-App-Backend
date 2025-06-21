@@ -16,7 +16,7 @@ app.use("/api/v1", todoRoutes);
 
 //start server
 app.listen(PORT, () => {
-  console.log("Server started successfully at ${PORT}");
+    console.log(`Server started successfully at ${PORT}`);
 });
 
 //connect to the database
